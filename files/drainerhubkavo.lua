@@ -29,7 +29,7 @@ if game.PlaceId == 17081469302 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
     end)
      
-    elseif game.PlaceId == 16389395869 then
+    elseif game.PlaceId == 16389398622 then
     local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
     local Window = Library.CreateLib("Drainer Hub", "GrapeTheme")
      
