@@ -31,7 +31,7 @@ if game.PlaceId == 17081469302 then
      
     elseif game.PlaceId == 16389398622 then
     local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-    local Window = Library.CreateLib("Drainer Hub", "Synapse")
+    local Window = Library.CreateLib("Drainer Hub | A dusty trip", "Serpent")
      
     -- Main
     local Main = Window:NewTab("Main")
