@@ -1,6 +1,6 @@
 if game.PlaceId == 17081469302 then
     local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-    local Window = Library.CreateLib("Drainer Hub", "Serpent")
+    local Window = Library.CreateLib("Avalon Hub Beta", "Serpent")
      
     -- Main
     local Main = Window:NewTab("Main")
@@ -32,7 +32,7 @@ if game.PlaceId == 17081469302 then
      
     elseif game.PlaceId == 16389398622 then
     local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-    local Window = Library.CreateLib("Drainer Hub Beta | A dusty trip", "Serpent")
+    local Window = Library.CreateLib("Avalon Hub Beta | A dusty trip", "Serpent")
      
     -- Main
     local Main = Window:NewTab("Main")
