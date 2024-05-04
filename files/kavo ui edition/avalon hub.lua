@@ -1,6 +1,6 @@
 if game.PlaceId == 17081469302 then
     local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-    local Window = Library.CreateLib("Avalon Hub Beta", "Serpent")
+    local Window = Library.CreateLib("Avalon Hub Beta | Test Game", "Serpent")
      
     -- Main
     local Main = Window:NewTab("Main")
