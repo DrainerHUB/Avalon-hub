@@ -72,6 +72,34 @@ if game.PlaceId == 17081469302 then
 		    end  
 		end    
 	end)
+    PlayerSection:NewColorPicker("Color Text", "Color Info", Color3.fromRGB(0,0,0), function(Value)
+        getgenv().Color = Value
+    end)
+    PlayerSection:NewToggle("TeamCheck", "TeamCheck", function(Value)
+        getgenv().teamcheck = Value
+        end
+    end)
+    PlayerSection:NewToggle("Rainbow Esp", "Rainbow Esp", function(Value)
+            getgenv().Rainbow = Value
+            while wait() do
+                if not getgenv().Rainbow then return end
+                getgenv().Color = Color3.new(148, 0, 211)
+                wait()
+                getgenv().Color = Color3.new(75, 0, 130)
+                wait()
+                getgenv().Color = Color3.new(0, 0, 255)
+                wait()
+                getgenv().Color = Color3.new(0, 255, 0)
+                wait()
+                getgenv().Color = Color3.new(255, 255, 0)
+                wait()
+                getgenv().Color = Color3.new(255, 127, 0)
+                wait()
+                getgenv().Color = Color3.new(255, 0 , 0)
+                wait()
+            end    
+        end    
+    end)
     -- Tools
     local Tools = Window:NewTab("Tools")
     local ToolsSection = Tools:NewSection("Tools")
@@ -155,6 +183,34 @@ if game.PlaceId == 17081469302 then
 		    end  
 		end    
 	end)
+    PlayerSection:NewColorPicker("Color Text", "Color Info", Color3.fromRGB(0,0,0), function(Value)
+        getgenv().Color = Value
+    end)
+    PlayerSection:NewToggle("TeamCheck", "TeamCheck", function(Value)
+        getgenv().teamcheck = Value
+        end
+    end)
+    PlayerSection:NewToggle("Rainbow Esp", "Rainbow Esp", function(Value)
+            getgenv().Rainbow = Value
+            while wait() do
+                if not getgenv().Rainbow then return end
+                getgenv().Color = Color3.new(148, 0, 211)
+                wait()
+                getgenv().Color = Color3.new(75, 0, 130)
+                wait()
+                getgenv().Color = Color3.new(0, 0, 255)
+                wait()
+                getgenv().Color = Color3.new(0, 255, 0)
+                wait()
+                getgenv().Color = Color3.new(255, 255, 0)
+                wait()
+                getgenv().Color = Color3.new(255, 127, 0)
+                wait()
+                getgenv().Color = Color3.new(255, 0 , 0)
+                wait()
+            end    
+        end    
+    end)
     -- Tools
     local Tools = Window:NewTab("Tools")
     local ToolsSection = Tools:NewSection("Tools")
